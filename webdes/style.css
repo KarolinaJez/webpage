@@ -1,0 +1,106 @@
+html {
+    background-color: black;
+}
+
+body, html {
+    height: 100%;
+  }
+  
+
+.parallax, .parallax2, .parallax3, .parallax4 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('fire_away0.png');
+  
+    /* Full height */
+    /* height: 100%; */
+    min-height: 800px;
+} 
+
+.parallax2 {
+    background-image: url('58269_legend_of_korra.jpg');
+    min-height: 400px;
+}
+
+.parallax3 {
+    background-image: url('nlp_960.jpg');
+    min-height: 400px;
+}
+
+.parallax4 {
+    background-image: url('background1920x1080[1].jpg');
+    height: 80%
+}
+
+
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 80%;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.caption2 {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.caption2 span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+
+.parag {
+    font-size: 19px;
+    text-align: center;
+}
+
+.end {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+  }
+
+@media (max-device-width: 1024px) {
+    .parallax, .parallax2, .parallax3, .parallax4 {
+        background-attachment: scroll;
+    };
+}
+
