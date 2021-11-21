@@ -101,6 +101,9 @@ a {
 @media (max-device-width: 1024px) {
     .parallax, .parallax2, .parallax3, .parallax4 {
         background-attachment: scroll;
-    };
+    }
+    .parallax {
+        min-height: 300px;
+    }
 }
 
